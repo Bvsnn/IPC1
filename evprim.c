@@ -53,11 +53,11 @@ int main()
         // Resultados
         printf("Existen %d numeros primos y %d pares de gemelos primos.\n", cont, gemelos);
 
-        printf("0 = Continuar / 1 = Terminar: ");
+        printf("0 = Continuar / 1 = Finalizar: ");
         scanf("%d", &salir);
     }
 
-    printf(">>Terminando<<\n");
+    printf(">>Finalizando<<\n");
 
     return 0;
 }
