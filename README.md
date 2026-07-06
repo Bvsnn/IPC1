@@ -20,6 +20,6 @@ The main goal is to practice programming fundamentals, logic building and proble
 ---
 
 ## 🛠️ Technologies used
-- C / C++ (or Python if applies)
+- C
 - Visual Studio Code
 - Git & GitHub
