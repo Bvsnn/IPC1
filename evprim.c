@@ -83,27 +83,3 @@ int main()
     printf(">>Finalizndo<<\n");
     return 0;
 }
-
-
-// Observaciones:
-//
-// Al principío usamos una formula la cual era muy lenta para la ejecucion del programa, ya que esta verificaba numero por numero,
-// asi que tardaba mucho en realizar limites con valores a 100.000 o más, para solucionar esto, se consulto con compañeros de
-// carrera y se hizo una investigacion aparte, llegando a encontrar la que creemos el mejor metodo para este programa,
-// "La criba de Eratóstenes", el cual es un algoritmo que permite encontrar numeros primos dentro de un rango definido, eliminando
-//  los multiplos de cada numero, dejando por descarte solo los que no tienen divisores aparte del 1 y de si mismos.
-//
-// https://www.smartick.es/blog/matematicas/numeros-enteros/numeros-primos-criba-eratostenes/
-// https://www-geeksforgeeks-org.translate.goog/c/c-program-to-implement-sieve-of-eratosthenes/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc&_x_tr_hist=true
-//
-//
-//
-// En pruebas del programa, se pudo observar que debido al stack el programa aguanta un limite de poco más de 500.000,
-// una solucion para esta limitacion podria ser el reemplazo del tipo de dato, pasando de trabajar con enteros "int",
-// a trabajar con caracteres "char", ya que el programa esta siendo limitado por la memoria y este cambio reduce los bytes
-// 4 veces su peso, la otra opcion es el uso de "malloc" ya que permite crear arreglos del tamaño ncecesario en el timepo de
-// ejecucion del programa, dependiendo del valor ingresado.
-//
-// https://platzi.com/blog/que-es-la-memoria-dinamica-funcion-malloc/
-// https://es.wikibooks.org/wiki/Programación_en_C/Expresiones
-//
