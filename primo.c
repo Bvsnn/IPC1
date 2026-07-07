@@ -36,7 +36,7 @@ int main()
             {
                 primos++;
 
-                if(ultimoPrimo != 0 && numero - ultimoPrimo == 2) //Arreglo
+                if(numero - ultimoPrimo == 2)
                 {
                     gemelos++;
                 }
@@ -45,7 +45,6 @@ int main()
             }
 
             numero++;
-
         }
 
         printf("Existen %d numeros primos y %d pares de gemelos primos.\n", primos , gemelos);
